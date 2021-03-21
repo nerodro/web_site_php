@@ -1,0 +1,166 @@
+body {
+	background-color: grey;
+}
+
+.general{
+	background-color: white;
+	display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: sans-serif; /* Курсивное начертание */
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+}
+
+ul.menu-item{
+	margin: 0;
+	padding: 4px;
+	background-color: #171717;
+	color: white;
+	font-size: 20pt;
+}
+
+ul.menu-item li{
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 80px;
+    padding: 3px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a:hover{
+	color:grey;
+}
+
+.block{
+	background-color: white;
+	display: block; 
+	padding: 20px;
+	text-align: center;
+	font-style: sans-serif;
+	margin-top: 0; 
+    margin-bottom: 5px;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: separate;
+	empty-cells: hide;
+}
+th {
+  font-size: 18px;
+  font-weight: normal;
+  background: white;
+  border-top: 4px black;
+  border-bottom: 1px black;
+  color: black;
+  padding: 8px;
+  border-right: 0.5px solid;
+}
+
+td {
+	font-size: 18px;
+  border-top: 1px solid black;
+  background: white;
+  border-bottom: 1px solid black;ы
+  color: black;
+  padding: 8px;
+  border-right: 0.5px solid;
+}
+
+input {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.regiss {
+	text-align: left;
+	font-size: 16pt;
+}
+
+
+.btn {
+  display: inline-block;
+  color: grey;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+
+.btn:hover { background: rgba(255,255,255,.2); }
+.btn:active { background: white; }
+
+.login {
+	text-align: left;
+	font-size: 14pt;
+}
+
+.cabinet {
+	float: right;
+	background-color: white;
+	display: block; 
+	padding: 20px;
+	text-align: center;
+	font-style: sans-serif;
+	margin-top: 0; 
+    margin-bottom: 5px;
+}
+
+.pictu {
+	text-align: left;
+}
+
+.text {
+	font-size: 16pt;
+	text-align: left;
+}
+
+.hoverr {
+	font-size: 16pt;
+	text-align: left;
+}
+
+textarea {
+  resize: none;
+}
+
+.content {
+	text-align: left;
+	font-size: 17pt;
+}
+
+
+.pt16 {
+	font-size: 16pt;
+}
+
+.pt17 {
+	font-size: 17pt;
+}
+
+.pt20{
+	font-size: 20pt;
+}
+
+.pt18{
+	font-size: 18pt;
+}
